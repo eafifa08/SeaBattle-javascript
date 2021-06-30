@@ -3,7 +3,14 @@ body {
     background-image: url("images/grid.png");
 }
 
-.human, .computer {
+#human_field {
+    background-image: url("images/bg_play_field.png");
+    width: 365px;
+    height: 363px;
+    display: inline-block;
+    margin: 0px 30px;
+}
+#computer_field {
     background-image: url("images/bg_play_field.png");
     width: 365px;
     height: 363px;
