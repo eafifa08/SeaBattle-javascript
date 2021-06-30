@@ -1,0 +1,12 @@
+body {
+    background-color: aliceblue;
+    background-image: url("images/grid.png");
+}
+
+.human, .computer {
+    background-image: url("images/bg_play_field.png");
+    width: 365px;
+    height: 363px;
+    display: inline-block;
+    margin: 0px 30px;
+}
