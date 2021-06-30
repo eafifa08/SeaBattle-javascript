@@ -1,3 +1,6 @@
+let ship_data = [];
+let ship
+
 const getElement = id => document.getElementById(id);
 
 const getCoordinates = el => {
@@ -10,4 +13,4 @@ const getCoordinates = el => {
   };
 }
 
-alert(getCoordinates(getElement('human_field')).left);
+
